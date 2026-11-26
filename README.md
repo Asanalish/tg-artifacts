@@ -2,7 +2,7 @@
 
 Артефакты Claude как Telegram Mini App. Сайт: https://asanalish.github.io/tg-artifacts/
 
-- `index.html` — хаб и роутер: `t.me/<бот>/app?startapp=g37` открывает `g37/`
+- `index.html` — хаб и роутер: `t.me/AsanaliPages_bot/app?startapp=g37` открывает `g37/`
 - `tg.js` — подключение к Telegram: полная высота, тема, цвета шапки, без сворачивания при прокрутке
 - `pages.json` — список страниц для хаба
 - `add_page.py` — добавить или обновить артефакт
@@ -15,4 +15,4 @@ python3 add_page.py nets ~/Downloads/nets.html "Сети с нуля" "Курс 
 git add -A && git commit -m "add nets" && git push
 ```
 
-Ссылка для канала: `https://t.me/<бот>/app?startapp=nets`
+Ссылка для канала: `https://t.me/AsanaliPages_bot/app?startapp=nets`
